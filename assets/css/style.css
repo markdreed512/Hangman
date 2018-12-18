@@ -1,4 +1,7 @@
 body{
     text-align: center;
-    font-family: arial;
+    font-family: 'Cutive Mono', monospace;
+}
+h1 {
+    font-size: 70px;
 }
