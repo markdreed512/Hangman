@@ -4,29 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script type="text/javascript" src="assets/javascript/test.js"></script>
+    <script type="text/javascript" src="assets/javascript/javascript.js"></script>
     <!-- <script type="text/javascript" src="assets/javascript/game.js"></script> -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Emilys+Candy|Rye" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cardo|Emilys+Candy|Rye" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
     <title>Hangman</title>
 </head>
 <body>
-    <div>
-            <h3 id="instructions">Press any key to Start</h3>
-    </div>   
+    <div id="main">
+        <div id="title-main">
+            <div id="title">
+                Monty Python's
+            </div>
+            <div id="title2">WORD-GUESS-O-MATIC 2000</div>
+            <div id="py-pic">
+                    <img src="assets/images/pythons.jpg">
+            </div>
+        </div>
+        
+        <h3 id="instructions">Press any key to Start</h3>
+           
 
-    <div id="game">
-        <h1 id="word-to-guess"></h1>
+        <div id="game">
+            <div id="pic-spot"></div>
+            <h1 id="word-to-guess"></h1>
 
-        <div id="chosen-letters"></div>
+            
+            <h1 id="win-lose-message"></h1>
+            <h2 id="insult"></h2>
+        </div>
+    </div>
+    <div id="side-bar">
 
-        <div id="wrong-guesses"></div>
+            <div id="chosen-letters"></div><br><br>
 
-        <div id="guesses-remaining"></div>
+            <div id="guesses-remaining"></div><br><br>
 
-        <div id="number-of-wins"></div>
+            <div id="number-of-wins"></div><br><br>
 
-        <h1 id="win-lose-message"></h1>
     </div>
 </body>
 </html>

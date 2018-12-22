@@ -1,7 +1,58 @@
-body{
-    text-align: center;
-    font-family: 'Cutive Mono', monospace;
+body{margin:0;
+    
+    font-family: 'Raleway', sans-serif;
+    
+    background-image: url('../images/plaid.png');
 }
 h1 {
-    font-size: 70px;
+    font-size: 60px;
+}
+img {
+    width: 250px;
+}
+#main{
+   position: relative;
+   text-align: center;
+    width: 65%;
+    height: 100vh;
+    background-image:url('../images/card.png');
+    margin: 0 auto; 
+}
+#instructions{
+    font-size: 30px;
+    margin-top: 0px;
+    padding-top: 20px;
+    font-family: 'Cardo', serif;
+}
+#word-to-guess{
+    font-family: 'Cutive Mono', monospace;
+}
+
+#side-bar{
+    position:absolute;
+    width: 200px;
+    height: 100px;
+    top: 50px;
+    padding-left: 20px;
+    color: white;
+    font-size: 25px;
+}
+#insult{
+    font-size: 30px;
+}
+#title{
+    
+    font-family: 'Emilys Candy', cursive;
+font-size: 95px;
+padding-top:40px;
+}
+#title2{
+    font-family: 'Cardo', serif;
+    font-size: 42px;
+    }
+#py-pic{
+    margin-top: 20px;
+}
+#py-pic img{
+    width: 400px;
 }
